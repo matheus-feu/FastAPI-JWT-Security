@@ -14,3 +14,10 @@ services:
 volumes:
   db:
     driver: local
+
+
+networks:
+  networks_bridge:
+    external:
+      name: networks_bridge
+
